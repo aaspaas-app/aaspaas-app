@@ -1,0 +1,21 @@
+name: aaspaas_app
+description: Aas Paas - find nearby businesses, deals, jobs and news.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+  flutter_secure_storage: ^9.2.2
+  url_launcher: ^6.3.0
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
